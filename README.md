@@ -1,4 +1,11 @@
 # JwtAuthentication
+actoin implemented : 
+```Login```
+```Register```
+```Recovery Password```
+```Rest Password```
+
+#Note
 The Alomost Complite And Secure  Authentication Api Source Code
 
 --Please after download source code run ```Update-database``` in packege manage console to create database from migrations.
