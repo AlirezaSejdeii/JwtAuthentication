@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthentication", "JwtAuthentication\JwtAuthentication.csproj", "{2A05369A-2C91-48F4-8EFD-04E7E3F7A827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthentication", "JwtAuthentication\JwtAuthentication.csproj", "{2A05369A-2C91-48F4-8EFD-04E7E3F7A827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JwtAuthentication Refresh Token", "JwtAuthentication Refresh Token", "{1F3CDC28-6EBB-4C56-813C-D03FE1F412B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthentication", "..\..\ASP Projects\JwtAuthentication Refresh Token\JwtAuthentication\JwtAuthentication.csproj", "{44502456-562C-413C-AACA-62441D9C94E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{2A05369A-2C91-48F4-8EFD-04E7E3F7A827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A05369A-2C91-48F4-8EFD-04E7E3F7A827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A05369A-2C91-48F4-8EFD-04E7E3F7A827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44502456-562C-413C-AACA-62441D9C94E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44502456-562C-413C-AACA-62441D9C94E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44502456-562C-413C-AACA-62441D9C94E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44502456-562C-413C-AACA-62441D9C94E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44502456-562C-413C-AACA-62441D9C94E4} = {1F3CDC28-6EBB-4C56-813C-D03FE1F412B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8A5CAE2-8A9E-4D69-ADC5-F2FAF1CBA884}
