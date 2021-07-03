@@ -1,7 +1,9 @@
 # JwtAuthentication
 The Alomost Complite And Secure  Authentication Api Source Code
 
-Please after download source code run ```Update-database``` in packege manage console to create database from migrations.
+--Please after download source code run ```Update-database``` in packege manage console to create database from migrations.
+
+--For sending email write your email and password in ```Utilites/SendEmail.cs``` file.
 
 ## Note For ```Recovery Password ```
 This Step By Step For You:
