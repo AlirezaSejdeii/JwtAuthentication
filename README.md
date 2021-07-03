@@ -3,5 +3,24 @@ The Alomost Complite And Secure  Authentication Api Source Code
 
 Please after download source code run ```Update-database``` in packege manage console to create database from migrations.
 
-## Note
-In ```RecoveryPassword``` action in ```Get``` method you must send your email. after that applicaton send a email contain token and email. please implement action in your app to get and save token and email then get yousr new password from input and finaly send body with post requst to ```RecoveryPassword``` all of them( ```Email``` , ```Token``` , ```NewPassword```)
+## Note For ```Recovery Password ```
+This Step By Step For You:
+
+1- Call ```Get``` Action and pass Email.
+
+2- Implemnt Your own view for getting NewPassword from user.
+
+3- Change link url in line ```193``` in authentication controller and set that where your Recovery Password is.
+
+4- In Your Recovery Password view your must save ```token``` and ```email``` paramter. those values is in sended email link and seted in line ```193```.
+
+5- Get NewPassword from user and in ```Post``` request set valuse on body and send to ```RecoveryPassword``` endpoint with below json format
+
+````
+{
+    "Email":"",
+    "Token":"",
+    "NewPassword":""
+}
+````
+
